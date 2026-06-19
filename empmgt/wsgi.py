@@ -11,7 +11,7 @@ import os
 import sys
 
 from django.core.wsgi import get_wsgi_application
-sys.path.append("/home/virginiaemp/ww/empmgt")
+sys.path.append("/home/virginiaemp/www/empmgt")
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'empmgt.settings')
 
 application = get_wsgi_application()
